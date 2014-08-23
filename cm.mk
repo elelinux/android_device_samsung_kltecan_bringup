@@ -20,6 +20,10 @@
 # definition file).
 #
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+
 $(call inherit-product, device/samsung/kltecan/full_kltecan.mk)
 
 # Inherit some common CM stuff.
